@@ -52,7 +52,7 @@ for line in sys.stdin:
             tmaxct += 1
 
         elif element == "TMIN":
-        tmin += value
+            tmin += value
             if value < mintmn:
                 mintmn = value
             tminct += 1
